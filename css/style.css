@@ -1,4 +1,4 @@
-h1, h2, h3, ul, p{
+h1, h2, h3, h4, ul, p{
     margin: 0;
     padding: 0;
 }
@@ -73,19 +73,19 @@ nav a:hover{
 
 .container{
     width: 960px;
-    margin: 2em auto 0 auto;
+    margin: 1em auto 0 auto;
     background-color: #ffffff;
     padding: 20px 0;
     border: 2px #dddddd solid;
 }
 
 .inside{
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .imageBox{
     float: left;
-    margin: 30px 10px 0 0;
+    margin: 20px 10px 0 0;
     height: 200px;
     width: 300px;
     
@@ -93,24 +93,22 @@ nav a:hover{
 
 .content{
     line-height: 1.5;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .topSection{
-    height:30px;
     color: #4aaaa5;
-    border-bottom: 3px #ccc solid;
-    padding-bottom: 30px;
+    border-bottom: 1px #ccc solid;
 }
 
 .topSection h2{
-    font-size: 30px;
-    padding: 20px 0 20px 0;
+    font-size: 26px;
+    padding: 10px 0 20px 0;
 }
 
 .topSection h3{
-    font-size: 24px;
-    padding: 10px 0 10px 0;
+    font-size: 20px;
+    padding: 8px 0 16px 0;
 }
 
 footer{
@@ -121,7 +119,7 @@ footer{
 }
 
 .topFootLine{
-    height: 10px;
+    height: 5px;
     width: 100%;
     background-color: #4aaaa5;
 }
@@ -165,15 +163,43 @@ footer{
 }
 
 .container-secondary{
-    width: 720px;
-    margin: 2em auto 0 auto;
+    width: 640px;
+    margin: 1em auto 0 auto;
     background-color: #ffffff;
     padding: 20px 0;
     border: 2px #dddddd solid;
 }
 
 .main-header-secondary{
-    width: 720px;
+    width: 640px;
     margin: 0 auto;
+}
+
+/* Portfolio Page */
+
+.box{
+    height: 125px;
+    width: 175px;
+    margin: 10px 20px 10px 0;
+    float: left;
+    background-image: url(http://lorempixel.com/150/175);
+    position: relative;
+}
+
+.picArea{
+    width: 500px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.portTitle{
+    background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 15px;
 }
 
