@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -14,9 +14,13 @@
                 <h1 class="name">Michael Campbell</h1>
                 <nav>
                     <ul>
-                        <li><a href="index.html">About</a></li>
+                        <!-- Commented out li's are part of js free addresses -->
+                        <!-- <li><a href="index.html">About</a></li>
                         <li><a class="middleA" href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li> -->
+                        <li class="navli"id="index" onclick="drop()">About</li>
+                        <li class="navli middleA"id="portfolio" onclick="drop()">Portfolio</li>
+                        <li class="navli"id="contact" onclick="drop()">Contact</li>
                     </ul>
                 </nav>
             </div>
@@ -30,20 +34,20 @@
                     <h3 class="about">Portfolio</h3>
                 </div>
                 <div class="picArea">
-                    <div class="box">
-                        <h4 class="portTitle">Test</h4>
+                    <div class="box" id="box1">
+                        <h4 class="portTitle">Board Games</h4>
                     </div>
-                    <div class="box">
-                        <h4 class="portTitle">Test</h4>
+                    <div class="box" id="box2">
+                        <h4 class="portTitle">Design Applications</h4>
                     </div>
-                    <div class="box">
-                        <h4 class="portTitle">Test</h4>
+                    <div class="box" id="box3">
+                        <h4 class="portTitle">Math Applications</h4>
                     </div>
-                    <div class="box">
-                        <h4 class="portTitle">Test</h4>
+                    <div class="box" id="box4">
+                        <h4 class="portTitle">Retro Games</h4>
                     </div>
-                    <div class="box">
-                        <h4 class="portTitle">Test</h4>
+                    <div class="box" id="box5">
+                        <h4 class="portTitle">Yahtzee</h4>
                     </div>
                 </div>
             </div>
@@ -53,6 +57,6 @@
         <div class="topFootLine"></div>
         <p class="footContent">Copyright &copy; 2018</p>
     </footer>
-    
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

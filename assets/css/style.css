@@ -28,6 +28,7 @@ header{
 
 .main-header{
     width: 960px;
+    overflow: hidden;
     margin: 0 auto;
 }
 
@@ -47,13 +48,15 @@ nav{
 
 nav li{
     float: left;
-    padding: 0 5px;
+    padding: 0 10px;
+    cursor: pointer;
 }
 
-nav a{
+.navli, nav a{
     color: #555;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    position: relative;
 }
 
 .middleA{
@@ -62,7 +65,7 @@ nav a{
     padding: 0 10px;
 }
 
-nav a:hover{
+.navli:hover, nav a:hover{
     text-decoration: underline;
     color: #4aaaa5;
 }
@@ -72,7 +75,7 @@ nav a:hover{
 }
 
 .container{
-    width: 960px;
+    width: 956px;
     margin: 1em auto 0 auto;
     background-color: #ffffff;
     padding: 20px 0;
@@ -182,8 +185,27 @@ footer{
     width: 175px;
     margin: 10px 20px 10px 0;
     float: left;
-    background-image: url(http://lorempixel.com/150/175);
     position: relative;
+}
+
+#box1{
+    background-image: url(../images/portPics/boardGame.jpeg)
+}
+
+#box2{
+    background-image: url(../images/portPics/keyboard.jpeg)
+}
+
+#box3{
+    background-image: url(../images/portPics/math.jpeg)
+}
+
+#box4{
+    background-image: url(../images/portPics/retroGame.jpeg)
+}
+
+#box5{
+    background-image: url(..//images/portPics/yahtzee.jpg)
 }
 
 .picArea{
