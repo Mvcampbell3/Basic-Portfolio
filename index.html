@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper"> <!--Use for sticky footer, height: calc(100vh - height of footer)-->
         <header>
             <div class="main-header">
                 <h1 class="name">Michael Campbell</h1>
                 <nav>
                     <ul>
-                        <!-- Commented out li's are part of js free addresses -->
+      <!-- Commented out li's are part of js free addresses -->
                         <!-- <li><a href="index.html">About</a></li>
                         <li><a class="middleA" href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li> -->
-                        <li class="navli"id="index" onclick="drop()">About</li>
-                        <li class="navli middleA"id="portfolio" onclick="drop()">Portfolio</li>
-                        <li class="navli"id="contact" onclick="drop()">Contact</li>
+                        <li class="navli"id="index" onclick="primeFade()">About</li>
+                        <li class="navli middleA"id="portfolio" onclick="primeFade()">Portfolio</li>
+                        <li class="navli"id="contact" onclick="primeFade()">Contact</li>
                     </ul>
                 </nav>
             </div>
@@ -28,14 +28,19 @@
 
         <div class="clearfix"></div>
 
-        <div class="container">
-            <div class="inside">
+        <div class="container"> <!--Setting width of content-->
+
+            <div class="inside"> <!--Setting inside paddind from width-->
+
                 <div class="topSection">
                     <h2 class="about">About Me</h2>
                 </div>
                 <img class="imageBox" src="assets/images/chameleon.jpeg" alt="" class="pic">
+
                 <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quasi tempora architecto sequi in dignissimos, dolor recusandae atque quisquam dicta molestiae sint, veniam, voluptatem iste qui magni voluptates.</p>
+
                 <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod praesentium dolorem commodi delectus dolore, labore quia provident pariatur neque aperiam possimus assumenda a, quae eaque minus velit, autem perferendis exercitationem.</p>
+
                 <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus commodi totam quo minus, sequi, amet unde, ipsa doloribus suscipit officia error nisi molestiae vel. Doloribus exercitationem atque voluptatum recusandae quae nesciunt accusamus nam ipsa blanditiis rerum ullam perferendis, amet necessitatibus ab earum ipsam repellat quod error, quam hic veritatis, possimus nisi molestias! Nemo accusamus voluptate natus eaque recusandae, praesentium odit sapiente vero nulla. Ad, porro? Soluta nisi id iusto iste at fugit ratione eligendi alias.</p>
             </div>
         </div>

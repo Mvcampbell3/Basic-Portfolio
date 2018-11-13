@@ -3,7 +3,7 @@ var which;
 var useID = ["index.html", "contact.html", "portfolio.html"]
 
 
-function drop(){
+function primeFade(){
     var itemID = event.srcElement.id;
     console.log(itemID);
 
@@ -11,35 +11,17 @@ function drop(){
         which = 0;
         console.log(which);
         aniID = document.getElementById("index");
-        // aniDrop();
         fade();
     } else if (itemID == "contact") {
         which = 1;
         console.log(which);
         aniID = document.getElementById("contact");
-        // aniDrop();
         fade();
     } else if (itemID == "portfolio") {
         which = 2;
         console.log(which);
         aniID = document.getElementById("portfolio");
-        // aniDrop();
         fade();
-    }
-}
-
-function aniDrop() {
-    var pos = 18;
-    var id = setInterval(frame, 25);
-
-    function frame() {
-        if (pos >= 40) {
-            clearInterval(id);
-            window.location.href = useID[which];
-        } else {
-            pos = pos + 1;
-            aniID.style.fontSize = pos + "px";
-        }
     }
 }
 
