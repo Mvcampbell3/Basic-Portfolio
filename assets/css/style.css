@@ -27,7 +27,7 @@ body{
 
 .wrapper{
     min-height: calc(100vh - 75px);
-}
+} /* This is only here for the sticky footer */
 
 .container{
     width: 956px;
