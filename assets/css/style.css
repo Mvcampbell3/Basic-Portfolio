@@ -40,6 +40,7 @@ body{
     animation-fill-mode: forwards;
 }
 
+
 .inside{
     padding: 0 20px;
 }
@@ -145,7 +146,6 @@ footer{
     margin: 20px 10px 0 0;
     height: 200px;
     width: 300px;
-    
 }
 
 .content{
