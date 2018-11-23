@@ -126,9 +126,7 @@ nav li{
     width: 100px;
     text-align: center;
     color: lightgrey;
-    position: absolute;
-    bottom: 3px;
-    left: calc(50vw - 50px);
+    margin: 20px auto;
     font-size: 12px;
 }
 
@@ -265,4 +263,97 @@ footer{
 @keyframes fadeIn{
     0% {opacity: 0};
     100% {opacity: 1};
+}
+
+/* Media Queries */
+
+@media(max-width: 1100px) {
+    .container{
+        width: 640px;
+    }
+
+    .main-header{
+        width: 640px;
+    }
+}
+
+@media(max-width: 700px) {
+    .name{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    nav ul{
+        margin: 0 auto;
+    }
+
+    nav ul li{
+        float: none;
+        display: inline;
+    }
+
+    .main-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-header-secondary{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    header{
+        height: fit-content;
+        width: 100%;
+    }
+
+    .imageBox{
+        float: none;
+        display: block;
+        margin: 1em auto;
+
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .container-secondary{
+        width: 100%;
+    }
+
+    .topSection{
+        text-align: center;
+    }
+
+    .box{
+        float: none;
+        margin: 10px auto;
+    }
+
+    .picArea{
+        width: 100%;
+    }
+
+    .fullInput{
+        width: 100%;
+        border: 1px black solid;
+    }
+
+    label{
+        margin-bottom: 10px;
+    }
 }
