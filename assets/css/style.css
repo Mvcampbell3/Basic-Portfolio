@@ -349,11 +349,16 @@ footer{
     }
 
     .fullInput{
-        width: 100%;
+        width: 90%;
         border: 1px black solid;
+        margin: 0 5px;
     }
 
     label{
-        margin-bottom: 10px;
+        margin: 0 5px 10px 5px;
+    }
+
+    .inside{
+        padding: 0;
     }
 }
