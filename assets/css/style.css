@@ -137,6 +137,38 @@ footer{
     text-align: center;
 }
 
+.tab-nav{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: auto;
+    background-color:#4aaaa5;
+    border: 10px #333 solid;
+    display: none;
+}
+
+.small-nav{
+    display: none;
+    height: 0;
+    background-color: white;
+    color: #333;
+    padding-left: 20px;
+}
+
+.hideMe{
+    display: none;
+}
+
+.smallA{
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.small-nav li{
+    margin-bottom: 10px;
+}
+
 /* About/Index page styles */
 
 .imageBox{
@@ -289,6 +321,7 @@ footer{
         width: 100%;
         text-align: center;
         margin: auto;
+        display: none;
     }
 
     nav ul{
@@ -359,6 +392,10 @@ footer{
     }
 
     .inside{
-        padding: 0;
+        padding: 5px;
+    }
+
+    .tab-nav{
+        display: block;
     }
 }

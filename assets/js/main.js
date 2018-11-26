@@ -1,6 +1,47 @@
 var aniID;
 var which;
-var useID = ["index.html", "contact.html", "portfolio.html"]
+var useID = ["index.html", "contact.html", "portfolio.html"];
+var tabNav = document.getElementById("tab-nav");
+var smallNav = document.getElementById("small-nav");
+var hideMe = document.getElementById("hideMe")
+
+tabNav.addEventListener("click", slideNavDown);
+
+function slideNavDown(){
+    tabNav.removeEventListener("click", slideNavDown);
+    var pos = 0;
+    smallNav.style.display = "block";
+    var timer = setInterval(lower, 5);
+    function lower() {
+        if (pos >= 100) {
+            clearInterval(timer);
+            smallNav.style.height = "100px";
+            hideMe.style.display = "block"
+            tabNav.addEventListener("click", slideNavUp);
+        } else {
+            pos = pos + 2.5;
+            smallNav.style.height = pos + "px";
+        }
+    }
+};
+
+function slideNavUp(){
+    tabNav.removeEventListener("click", slideNavUp);
+    var pos = 100;
+    hideMe.style.display = "none";
+    var timer = setInterval(raise, 5);
+    function raise() {
+        if (pos <= 0) {
+            clearInterval(timer);
+            smallNav.style.height = "0px";
+            smallNav.style.display = "none"
+            tabNav.addEventListener("click", slideNavDown);
+        } else {
+            pos = pos - 2.5;
+            smallNav.style.height = pos + "px";
+        }
+    }
+};
 
 
 function primeFade(){
