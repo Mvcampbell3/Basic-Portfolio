@@ -1,0 +1,29 @@
+@import '../variables.scss';
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $bg-primary;
+  
+  h1{
+    padding: 10px;
+    color: $bg-white;
+  }
+
+  nav ul{
+    display: flex;
+
+    li a{
+      color: black;
+      padding: 0px 10px;
+      background-color: $bg-secondary;
+      margin-left: 10px;
+      color: $bg-white;
+      height: 56.4px;
+      display: grid;
+      place-items: center center;
+    }
+  }
+
+}
