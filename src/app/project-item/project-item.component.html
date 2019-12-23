@@ -1,9 +1,23 @@
 <div class="project">
-  <h3>{{project.name}}</h3>
-  <img src={{project.img_gif}} alt="" class="project-gif">
-  <p class="description">{{project.description}}</p>
-  <div class="link-area">
-    <a target='_blank' href={{project.link_website}}>Website</a>
-    <a target='_blank' href={{project.link_github}}>Github</a>
+  <div class="border-holder top">
+    <div class="left-border"></div>
+    <div class="center-border"></div>
+    <div class="right-border"></div>
+  </div>
+  
+  <div class="project-center">
+    <h3 class='text-center'>{{project.name}}</h3>
+    <img src={{project.img_gif}} alt="" class="project-gif">
+    <p class="description">{{project.description}}</p>
+    <div class="link-area">
+      <a target='_blank' href={{project.link_website}}>Website</a>
+      <a target='_blank' href={{project.link_github}}>Github</a>
+    </div>
+  </div>
+
+  <div class="border-holder bottom">
+    <div class="left-border"></div>
+    <div class="center-border"></div>
+    <div class="right-border"></div>
   </div>
 </div>

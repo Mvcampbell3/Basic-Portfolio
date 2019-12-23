@@ -1,4 +1,64 @@
-.project-gif{
-  width: 400px;
-  height: auto;
+@import '../../variables.scss';
+
+.project{
+  width: 45vw;
+  min-width: 350px;
+  margin: 0 auto 50px auto;
+  background-color: $bg-primarylight;
+
+  .project-gif{
+    min-width: 300px;
+    width: 40vw;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+  }
+
+  .project-center{
+    min-width: 300px;
+    width: 40vw;
+    margin: 0 auto;
+    
+  }
+
+  .link-area{
+    width: fit-content;
+    margin: 1em auto 0 auto;
+
+    a{
+      color: white;
+      text-decoration: underline;
+      margin: 1em 5px;
+    }
+  }
+}
+
+.border-holder{
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 50px;
+}
+
+.top{
+  .left-border{
+    border-top: 5px white solid;
+    border-left: 5px white solid;
+  }
+
+  .right-border{
+    border-top: 5px white solid;
+    border-right: 5px white solid;
+  }
+}
+
+.bottom{
+  .left-border{
+    border-bottom: 5px white solid;
+    border-left: 5px white solid;
+  }
+
+  .right-border{
+    border-bottom: 5px white solid;
+    border-right: 5px white solid;
+  }
 }

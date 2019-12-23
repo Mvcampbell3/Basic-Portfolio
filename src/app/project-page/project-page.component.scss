@@ -1,2 +1,13 @@
 @import '../../variables.scss';
 
+.container{
+  min-height: calc(100vh - 48px);
+  padding: 10px 50px;
+  background-color: $bg-primary;
+  color: $bg-white;
+}
+
+.title{
+  border-bottom: 5px white solid;
+  margin: 2em 0;
+}
