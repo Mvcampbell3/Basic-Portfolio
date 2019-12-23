@@ -1,0 +1,45 @@
+.loader-ring{
+  height: 200px;
+  width: 200px;
+  display: grid;
+  place-items: center center;
+  position: relative;
+  border-radius: 50%;
+  border: 5px white solid;
+  border-right: 5px transparent solid;
+  animation-name: loadAni;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.loader-middle{
+  animation-name: rollBack;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+.loader-holder{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.loader-middle{
+  position: absolute;
+  
+}
+
+@keyframes loadAni{
+  0% {transform: rotateZ(0deg)}
+  50% {transform: rotateZ(180deg)}
+  100% {transform: rotateZ(360deg)}
+}
+
+@keyframes rollBack{
+  0% {transform: rotateZ(0deg)}
+  50% {transform: rotateZ(-180deg)}
+  100% {transform: rotateZ(-360deg)}
+}

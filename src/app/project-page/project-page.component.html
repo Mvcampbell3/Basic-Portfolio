@@ -5,7 +5,15 @@
   <div class="title">
     <h2 class='text-center'>Projects</h2>
   </div>
-  <div class="project-holder" *ngFor='let project of projects'>
-    <app-project-item [project]='project'></app-project-item>
+
+  <div class="loadCheck" *ngIf='imagesLoaded; else loader'>
+    <div class="project-holder" *ngFor='let project of projects'>
+      <app-project-item [project]='project'></app-project-item>
+    </div>
   </div>
+
+  <ng-template #loader>
+    <app-loader></app-loader>
+  </ng-template>
+  
 </div>

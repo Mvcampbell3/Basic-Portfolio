@@ -8,6 +8,8 @@ import { Project } from '../models/project';
 })
 export class ProjectPageComponent implements OnInit {
 
+  imagesLoaded: boolean = false;
+
   projects: Project[] = [
     {
       name: 'Teammate Finder',
@@ -74,6 +76,26 @@ export class ProjectPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.loadImages();
+  }
+
+  loadImages() {
+    let loaded = 0;
+    const images = this.projects.map(project => project.img_gif);
+    images.forEach(image => {
+      const newImage = new Image();
+      newImage.src = image;
+      newImage.onload = () => {
+        loaded++;
+
+        if (loaded === images.length) {
+          setTimeout(() => {
+            this.imagesLoaded = true;
+
+          }, 300)
+        }
+      }
+    })
   }
 
 }

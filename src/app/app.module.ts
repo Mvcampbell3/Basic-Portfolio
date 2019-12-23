@@ -10,6 +10,7 @@ import { TechComponent } from './tech/tech.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectItemComponent } from './project-item/project-item.component';
 import { HeaderComponent } from './header/header.component';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HeaderComponent } from './header/header.component';
     TechComponent,
     ResumeComponent,
     ProjectItemComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
