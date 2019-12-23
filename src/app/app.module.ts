@@ -6,9 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
-import { PorjectItemComponent } from './porject-item/porject-item.component';
 import { TechComponent } from './tech/tech.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ProjectItemComponent } from './project-item/project-item.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +16,9 @@ import { ResumeComponent } from './resume/resume.component';
     HomeComponent,
     ContactComponent,
     ProjectPageComponent,
-    PorjectItemComponent,
     TechComponent,
-    ResumeComponent
+    ResumeComponent,
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,
