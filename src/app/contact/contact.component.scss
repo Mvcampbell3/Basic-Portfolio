@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+
+.check{
+  width: 50px;
+  height: auto;
+}
+
+.contact-link{
+  color: white;
+}
+
+.wrapper{
+  padding: 20px;
+  width: fit-content;
+  margin: 2em auto;
+}
+
+.contact-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 20px; 
+  align-items: center;
+  background-color: #222;
+
+  h4{
+    margin-right: 20px;
+    letter-spacing: 1px;
+  }
+
+  &:hover {
+    background-color: $bg-white;
+    color: $bg-secondary;
+
+    .contact-link{
+      color: $bg-secondary;
+      text-decoration: underline;
+    }
+  }
+}
