@@ -4,10 +4,11 @@
   width: 40vw;
   min-width: 325px;
   margin: 0 auto 50px auto;
+  transition: all .3s;
 
   .project-gif{
-    min-width: 300px;
-    width: 38vw;
+    min-width: 260px;
+    width: 28vw;
     height: auto;
     display: block;
     margin: 1em auto;
@@ -27,6 +28,33 @@
       color: white;
       text-decoration: underline;
       margin: 1em 5px;
+    }
+  }
+
+  &:hover{
+    background-color: $bg-white;
+    color: $bg-secondary;
+    transition: all .3s;
+
+    .link-area a{
+      color: $bg-secondary;
+    }
+
+    .top .left-border{
+      border-top: 5px $bg-secondary solid;
+      border-left: 5px $bg-secondary solid;
+    }
+    .top .right-border{
+      border-top: 5px $bg-secondary solid;
+      border-right: 5px $bg-secondary solid;
+    }
+    .bottom .left-border{
+      border-bottom: 5px $bg-secondary solid;
+      border-left: 5px $bg-secondary solid;
+    }
+    .bottom .right-border{
+      border-bottom: 5px $bg-secondary solid;
+      border-right: 5px $bg-secondary solid;
     }
   }
 }

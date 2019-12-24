@@ -67,7 +67,7 @@ export class ProjectPageComponent implements OnInit {
       img_gif: '../../assets/images/projects/triviamove.gif',
       link_github: 'https://github.com/Mvcampbell3/triviaMadness',
       link_website: 'https://triviamadness.herokuapp.com/',
-      description: 'MERN Stack application where users create and play trivia games. There is a lot of opportunity to improve the scope if this application through things such as a an overall scoring system or ability to leave comments on quizzes. I build this application to better understand form interaction in React and state management.',
+      description: 'MERN Stack application where users create and play trivia games. There is a lot of opportunity to improve the scope if this application through things such as a an overall scoring system or ability to leave comments on quizzes. I built this application to better understand form interaction in React and state management.',
       types: ['MERN', 'MongoDB', 'Express', 'React', 'NodeJS']
     }
 
