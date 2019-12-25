@@ -42,7 +42,7 @@ export class ProjectPageComponent implements OnInit {
     },
 
     {
-      name: 'Roosevelt Way',
+      name: 'Roosevelt Way (WIP)',
       img_still: 'still img',
       img_gif: '../../assets/images/projects/rooseveltmove.gif',
       link_github: 'https://github.com/Mvcampbell3/parks-and-rec',
