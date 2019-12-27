@@ -69,6 +69,16 @@ export class ProjectPageComponent implements OnInit {
       link_website: 'https://triviamadness.herokuapp.com/',
       description: 'MERN Stack application where users create and play trivia games. There is a lot of opportunity to improve the scope if this application through things such as a an overall scoring system or ability to leave comments on quizzes. I built this application to better understand form interaction in React and state management.',
       types: ['MERN', 'MongoDB', 'Express', 'React', 'NodeJS']
+    },
+
+    {
+      name: 'Rover Hooks',
+      img_still: 'still img',
+      img_gif: '../../assets/images/projects/roverhooksmove.gif',
+      link_github: 'https://github.com/Mvcampbell3/hook-space',
+      link_website: 'https://rover-pics-react.netlify.com/rover',
+      description: 'This is a React front-end website which displays Spirit and Oppotunity rover pictures from Mars using the NASA OpenAPI. The main purpose of this site was to experiment learning React-Hooks and parallax CSS',
+      types: ['React', 'React-Hooks', 'Express', 'Node']
     }
 
   ]
