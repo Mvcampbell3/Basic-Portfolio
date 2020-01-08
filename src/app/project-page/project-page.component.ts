@@ -86,8 +86,7 @@ export class ProjectPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // this.loadImages();
-    this.testDomContent()
+    this.loadImages();
   }
 
   loadImages() {
