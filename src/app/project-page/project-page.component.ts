@@ -14,7 +14,7 @@ export class ProjectPageComponent implements OnInit {
     {
       name: 'Teammate Finder',
       img_still: 'still img',
-      img_gif: '../../assets/images/projects/teammatefindermove.gif',
+      img_gif: '../../assets/images/projects/teammateopt.gif',
       link_github: 'https://github.com/Mvcampbell3/find-a-tm',
       link_website: 'https://teammate-finder-app.herokuapp.com/',
       description: 'This is a MEAN stack application which allows for users to self-rate their skills when it comes to online games, and then find other players near that skill level on various consoles. The main purpose of this application was to teach myself Typescript and Angular',
@@ -44,7 +44,7 @@ export class ProjectPageComponent implements OnInit {
     {
       name: 'Roosevelt Way (WIP)',
       img_still: 'still img',
-      img_gif: '../../assets/images/projects/rooseveltmove.gif',
+      img_gif: '../../assets/images/projects/rooseveltopt.gif',
       link_github: 'https://github.com/Mvcampbell3/parks-and-rec',
       link_website: 'https://roosevelt-way.herokuapp.com',
       description: 'This is a WIP MEAN stack application which will provide information to a user about the National Parks of the U.S. It will also give the user the ability to make travel itineraries, which will keep track of the parks they want to see on a given trip. The main purpose of this site is to give my parents a place where they can find all of the information they need.',
@@ -74,7 +74,7 @@ export class ProjectPageComponent implements OnInit {
     {
       name: 'Rover Hooks',
       img_still: 'still img',
-      img_gif: '../../assets/images/projects/roverhooksmove.gif',
+      img_gif: '../../assets/images/projects/roverhooksopt.gif',
       link_github: 'https://github.com/Mvcampbell3/hook-space',
       link_website: 'https://rover-pics-react.netlify.com/rover',
       description: 'This is a React front-end website which displays Spirit and Oppotunity rover pictures from Mars using the NASA OpenAPI. The main purpose of this site was to experiment learning React-Hooks and parallax CSS',
