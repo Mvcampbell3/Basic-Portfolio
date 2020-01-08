@@ -86,7 +86,8 @@ export class ProjectPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.loadImages();
+    // this.loadImages();
+    this.testDomContent()
   }
 
   loadImages() {
@@ -105,6 +106,14 @@ export class ProjectPageComponent implements OnInit {
           }, 300)
         }
       }
+    })
+  }
+
+  testDomContent() {
+    window.addEventListener('DOMContentLoaded', (e) => {
+      console.log(e)
+      console.log('loaded ?')
+      return this.imagesLoaded = true;
     })
   }
 
