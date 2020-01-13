@@ -1,75 +1,77 @@
 <app-header></app-header>
-<div class="container">
-  <div class="title">
-    <h2 class='text-center'>Technologies</h2>
-  </div>
-
-  <section *ngIf='loadedImages; else loader'>
-    <div class="tech-holder">
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">HTML</h5>
-          <img src="../../assets/images/HTML.jpg" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">Javascript</h5>
-          <img src="../../assets/images/Javascript.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">CSS</h5>
-          <img src="../../assets/images/CSS.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">Typescript</h5>
-          <img src="../../assets/images/Typescript.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">Angular</h5>
-          <img src="../../assets/images/Angular.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">React</h5>
-          <img src="../../assets/images/React.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">Express</h5>
-          <img src="../../assets/images/Express.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">Node</h5>
-          <img src="../../assets/images/Node.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group">
-        <div class="turn-tech">
-          <h5 class="tech-title">MySQL</h5>
-          <img src="../../assets/images/MySQL.png" alt="" class="tech-image">
-        </div>
-      </div>
-      <div class="tech-group last-tech">
-        <div class="turn-tech">
-          <h5 class="tech-title">MongoDB</h5>
-          <img src="../../assets/images/MongoDB.png" alt="" class="tech-image">
-        </div>
-      </div>
+<div class="bg">
+  <div class="container">
+    <div class="title">
+      <h2 class='text-center'>Technologies</h2>
     </div>
-  </section>
 
-  <ng-template #loader>
-    <app-loader></app-loader>
-  </ng-template>
+    <section *ngIf='loadedImages; else loader'>
+      <div class="tech-holder">
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">HTML</h5>
+            <img src="../../assets/images/HTML.jpg" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">Javascript</h5>
+            <img src="../../assets/images/Javascript.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">CSS</h5>
+            <img src="../../assets/images/CSS.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">Typescript</h5>
+            <img src="../../assets/images/Typescript.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">Angular</h5>
+            <img src="../../assets/images/Angular.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">React</h5>
+            <img src="../../assets/images/React.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">Express</h5>
+            <img src="../../assets/images/Express.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">Node</h5>
+            <img src="../../assets/images/Node.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group">
+          <div class="turn-tech">
+            <h5 class="tech-title">MySQL</h5>
+            <img src="../../assets/images/MySQL.png" alt="" class="tech-image">
+          </div>
+        </div>
+        <div class="tech-group last-tech">
+          <div class="turn-tech">
+            <h5 class="tech-title">MongoDB</h5>
+            <img src="../../assets/images/MongoDB.png" alt="" class="tech-image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <ng-template #loader>
+      <app-loader></app-loader>
+    </ng-template>
+  </div>
 </div>

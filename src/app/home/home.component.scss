@@ -2,13 +2,21 @@
 
 .fade-in{
   height: 100vh;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0.897);
   display: grid;
   place-items: center;
   animation-name: fadeIn;
   animation-duration: .3s;
   animation-fill-mode: forwards;
   opacity: 0;
+}
+
+.bg-home{
+  background: url('../../assets/images/backgrounds/space.jpg');
+  background-size: cover;
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  animation-fill-mode: forwards;
 }
 
 .grid-holder{

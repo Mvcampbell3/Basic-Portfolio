@@ -32,6 +32,13 @@ a{
   }
 }
 
+.bg{
+  min-height: calc(100vh - 48px);
+  background: url('./assets/images/backgrounds/space.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .title{
   border-bottom: 5px white solid;
   margin: 2em 0;
