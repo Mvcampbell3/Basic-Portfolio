@@ -32,6 +32,16 @@ export class ProjectPageComponent implements OnInit {
     },
 
     {
+      name: 'React Form Validator',
+      img_still: 'still img',
+      img_gif: '../../assets/images/projects/react-form.gif',
+      link_github: 'https://github.com/Mvcampbell3/react-form-validator',
+      link_website: 'https://react-form-validator.netlify.com/',
+      description: 'This is a React application that demonstrates client-side verification on forms. It uses React-Hooks to set and manipuate state that is connected to the values and events of inputs. By using conditional class names, the form makes it clear to the user which steps of the validation process he/she needs to complete. Also has a little fun with gifs after a successful login attempt.',
+      types: ['React', 'React-Hooks']
+    },
+
+    {
       name: 'Better To-do',
       img_still: 'still img',
       img_gif: '../../assets/images/projects/bettertodo.gif',
@@ -80,7 +90,6 @@ export class ProjectPageComponent implements OnInit {
       description: 'This is a React front-end website which displays Spirit and Oppotunity rover pictures from Mars using the NASA OpenAPI. The main purpose of this site was to experiment learning React-Hooks and parallax CSS',
       types: ['React', 'React-Hooks', 'Express', 'Node']
     }
-
   ]
 
   constructor() { }
