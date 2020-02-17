@@ -42,6 +42,16 @@ export class ProjectPageComponent implements OnInit {
     },
 
     {
+      name: 'Time Score',
+      img_still: 'img still not on here',
+      img_gif: '../../assets/images/projects/timescore.gif',
+      link_github: 'https://github.com/Mvcampbell3/time-score-frontend',
+      link_website: 'https://timescore.netlify.com/',
+      description: 'This Angular applicaton is a typing game. Players have one minute to type as many things that belong to the list that the game is about. It uses the Bulma CSS library for styling. This application will be turned into a full stack MEAN app to track user scores, add new games to a database, and make a high scores list for each game.',
+      types: ['Angular', 'Bulma']
+    },
+
+    {
       name: 'Better To-do',
       img_still: 'still img',
       img_gif: '../../assets/images/projects/bettertodo.gif',
