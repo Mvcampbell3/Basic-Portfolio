@@ -1,12 +1,12 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
-.project{
+.project {
   width: 40vw;
   min-width: 325px;
   margin: 0 auto 50px auto;
-  transition: all .3s;
+  transition: all 0.3s;
 
-  .project-gif{
+  .project-gif {
     min-width: 260px;
     max-width: 600px;
     width: 28vw;
@@ -15,77 +15,81 @@
     margin: 1em auto;
   }
 
-  .project-center{
+  .project-center {
     min-width: 300px;
     width: 38vw;
     margin: 0 auto;
   }
 
-  .link-area{
+  .link-area {
     width: fit-content;
     margin: 1em auto 0 auto;
 
-    a{
+    a {
       color: white;
       text-decoration: underline;
       margin: 1em 5px;
     }
   }
 
-  &:hover{
+  &:hover {
     background-color: $bg-white;
     color: $bg-secondary;
-    transition: all .3s;
+    transition: all 0.3s;
 
-    .link-area a{
+    .link-area a {
       color: $bg-secondary;
     }
 
-    .top .left-border{
+    .top .left-border {
       border-top: 5px $bg-secondary solid;
       border-left: 5px $bg-secondary solid;
     }
-    .top .right-border{
+    .top .right-border {
       border-top: 5px $bg-secondary solid;
       border-right: 5px $bg-secondary solid;
     }
-    .bottom .left-border{
+    .bottom .left-border {
       border-bottom: 5px $bg-secondary solid;
       border-left: 5px $bg-secondary solid;
     }
-    .bottom .right-border{
+    .bottom .right-border {
       border-bottom: 5px $bg-secondary solid;
       border-right: 5px $bg-secondary solid;
     }
   }
 }
 
-.border-holder{
+.border-holder {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   height: 50px;
 }
 
-.top{
-  .left-border{
+.top {
+  .left-border {
     border-top: 5px white solid;
     border-left: 5px white solid;
   }
 
-  .right-border{
+  .right-border {
     border-top: 5px white solid;
     border-right: 5px white solid;
   }
 }
 
-.bottom{
-  .left-border{
+.bottom {
+  .left-border {
     border-bottom: 5px white solid;
     border-left: 5px white solid;
   }
 
-  .right-border{
+  .right-border {
     border-bottom: 5px white solid;
     border-right: 5px white solid;
   }
+}
+
+.description {
+  line-height: 1.5;
 }

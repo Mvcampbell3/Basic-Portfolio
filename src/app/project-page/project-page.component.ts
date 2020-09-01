@@ -12,6 +12,25 @@ export class ProjectPageComponent implements OnInit {
 
   projects: Project[] = [
     {
+      name: 'Consult',
+      img_still: 'still_img',
+      img_gif: '../../assets/images/projects/consult.gif',
+      link_github: 'git',
+      link_website: 'https://www.consultlivelegal.com',
+      description: 'This project is for Consult Mobile App, a cross platform attorney-client communication and case management tool. I was the lead web developer. My responsibilites included Front End development through Angular, Bulma, and Sass. Video conferencing through Agora.io. Backend developement with Firebase in conjuction with a Node.js envirnoment through Firebase functions. Billing and account management through Stripe.js. Configuring and maintaining a dedicated Linux server to run a Node.js environment for hosting. The project was extremely Agile, with demands constantly changing and evolving. Please reach out to me if you would to demo this project.',
+      types: ['Angular', 'Firebase', 'Typsescript', 'Javascript', 'SASS']
+    },
+
+    {
+      name: 'Time Score',
+      img_still: 'img still not on here',
+      img_gif: '../../assets/images/projects/timescore2.gif',
+      link_github: 'https://github.com/Mvcampbell3/time-score-frontend',
+      link_website: 'https://timescore.netlify.app/',
+      description: 'This is  an Angular frontend application with Angular-Material that uses Firebase as a backend service. Players type as many items in a category as they can in 60 seconds. Players who signup can track their high scores, create and edit their own games.',
+      types: ['Angular', 'Bulma']
+    },
+    {
       name: 'Teammate Finder',
       img_still: 'still img',
       img_gif: '../../assets/images/projects/teammate.gif',
@@ -41,15 +60,7 @@ export class ProjectPageComponent implements OnInit {
       types: ['React', 'React-Hooks']
     },
 
-    {
-      name: 'Time Score',
-      img_still: 'img still not on here',
-      img_gif: '../../assets/images/projects/timescore.gif',
-      link_github: 'https://github.com/Mvcampbell3/time-score-frontend',
-      link_website: 'https://timescore.netlify.com/',
-      description: 'This Angular applicaton is a typing game. Players have one minute to type as many things that belong to the list that the game is about. It uses the Bulma CSS library for styling. This application will be turned into a full stack MEAN app to track user scores, add new games to a database, and make a high scores list for each game.',
-      types: ['Angular', 'Bulma']
-    },
+
 
     {
       name: 'Better To-do',
