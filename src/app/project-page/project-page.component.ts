@@ -15,8 +15,8 @@ export class ProjectPageComponent implements OnInit {
       name: 'Consult',
       img_still: 'still_img',
       img_gif: '../../assets/images/projects/consult.gif',
-      link_github: 'git',
-      link_website: 'https://www.consultlivelegal.com',
+      link_github: 'https://github.com/Mvcampbell3',
+      link_website: 'https://local-consult.netlify.app',
       description: 'This project is for Consult Mobile App, a cross platform attorney-client communication and case management tool. I was the lead web developer. My responsibilites included Front End development through Angular, Bulma, and Sass. Video conferencing through Agora.io. Backend developement with Firebase in conjuction with a Node.js envirnoment through Firebase functions. Billing and account management through Stripe.js. Configuring and maintaining a dedicated Linux server to run a Node.js environment for hosting. The project was extremely Agile, with demands constantly changing and evolving. Please reach out to me if you would to demo this project.',
       types: ['Angular', 'Firebase', 'Typsescript', 'Javascript', 'SASS']
     },
